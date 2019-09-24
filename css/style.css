@@ -31,7 +31,7 @@ li.log{
     right: 50px;
 }
 
-li{
+li.first{
     margin-top: 2px;
     margin-bottom: 2px;
     margin-left: 15px;
@@ -40,9 +40,15 @@ li{
    list-style-type: none;
 }
 header{
+    padding-top: 100px;
     text-align: center;
 }
-header button{    border: solid;
+img.Img{
+    margin-left: 100px;
+    float: left;
+}
+header button{
+    border: solid;
     border-color: white;
     background-color: #e99002;
     width: 280px;
@@ -55,11 +61,6 @@ p.title{
     text-size-adjust:130%;
     color: white;
 }
-
-/*.img{
-    align-self: flex-start;
-    margin-left: 250px;
-}*/
 
 h2{
     text-align: center;
@@ -82,3 +83,67 @@ color: white;
     font-size: 14px;
     padding-right: 15px;
 }
+
+.box2{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    background: #eeeeee;
+}
+
+img.tag{
+    padding: 10px;
+    width: 200px;
+    height: 150px;
+}
+
+div.box3{
+    display: flex;
+
+    justify-content: center;
+    padding: 100px;
+    background: white;
+}
+button.orange{
+    background-color: #e99002;
+    width: 280px;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Impact;
+}
+
+button.bleu{
+    background-color: #165882;
+    width: 280px;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Impact;
+}
+
+footer>ul{
+    display: flex;
+    height: 50px;
+    background: black;
+}
+li.end{
+    border-left: 2px solid grey;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 15px;
+   color: white;
+   text-decoration: none;
+   list-style-type: none;
+}
+ li.log1{
+    border-left: 2px solid grey;
+    position: absolute;
+    right: 50px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+ }
